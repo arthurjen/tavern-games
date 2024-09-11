@@ -1,21 +1,16 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
-const shantellSans = localFont({
-  src: "./fonts/ShantellSans.ttf",
-  variable: "--font-shantell-sans",
-  weight: "100 900",
-});
-const patrickHand = localFont({
-  src: "./fonts/patrickHand-Regular.ttf",
-  variable: "--font-patrick-hand",
-  weight: "100 900",
-});
 
 export const metadata: Metadata = {
   title: "Tavern Games",
   description: "of Dice Kingdom",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#F0A734",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -25,11 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${shantellSans.variable} ${patrickHand.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className="font-nuform">{children}</body>
     </html>
   );
 }

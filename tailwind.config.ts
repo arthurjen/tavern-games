@@ -7,10 +7,14 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      nuform: ["Nuform", "sans-serif"],
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        main: "#F0A734",
       },
     },
   },
