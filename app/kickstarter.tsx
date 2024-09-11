@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Cassettes from "../public/cassettes.png";
 export default function Kickstarter() {
   return (
     <div className="grid lg:grid-cols-5 border-b-2 border-main">
