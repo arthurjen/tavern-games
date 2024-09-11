@@ -3,6 +3,8 @@ import Image from "next/image";
 import DiceKingdomBanner from "../public/dice-kingdom.png";
 import Kickstarter from "./kickstarter";
 import WhoAreWe from "./who-are-we";
+import JoinTheParty from "./join-the-party";
+import Contact from "./contact";
 export default function Page() {
   return (
     <main className="flex flex-col items-center justify-center w-screen">
@@ -17,6 +19,8 @@ export default function Page() {
       <Home />
       <Kickstarter />
       <WhoAreWe />
+      <JoinTheParty />
+      <Contact />
     </main>
   );
 }
