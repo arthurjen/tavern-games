@@ -17,15 +17,14 @@ export default function JoinTheParty() {
             this is a collaborative project and the more the merrier. please hop
             in our discord and say hello!
           </p>
-          <div className="text-white text-center  bg-main w-80 h-10 mt-6">
-            <a
-              href="https://discord.gg/kZSD5cnuKb"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Join Discord
-            </a>
-          </div>
+          <a
+            href="https://discord.gg/kZSD5cnuKb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-center flex items-center justify-center bg-main w-80 h-10 mt-6 hover:bg-main-800"
+          >
+            Join Discord
+          </a>
         </div>
       </div>
     </div>

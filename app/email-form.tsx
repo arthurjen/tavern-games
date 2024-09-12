@@ -18,7 +18,7 @@ export default function EmailForm() {
       />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <button
-        className="text-white bg-main w-80 h-10"
+        className="text-white bg-main hover:bg-main-800 w-80 h-10"
         type="submit"
         disabled={state.submitting}
       >
