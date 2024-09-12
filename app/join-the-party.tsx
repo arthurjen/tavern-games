@@ -1,13 +1,20 @@
 import Image from "next/image";
+import DiceKnight from "../public/dice-knight.png";
+import DiceThief from "../public/dice-thief.png";
+import DiceMage from "../public/dice-mage.png";
+import DiceMan from "../public/dice-man.png";
 import DiceKingdomBanner2 from "../public/dice-kingdom-2.png";
+
 export default function JoinTheParty() {
   return (
     <div className="flex items-center justify-center w-full text-xl border-main border-b-2">
+      <Image className="" src={DiceMan} alt="Dice Man" width="300" height="100" />
+      <Image src={DiceThief} alt="Dice Thief" width="300" height="100" />
+
       <div className="flex flex-col items-center justify-center w-full lg:col-span-3 p-8 lg:p-20">
         <Image
           src={DiceKingdomBanner2}
-          alt="Dice Kingdom Banner"
-          priority
+          alt="Dice Kingdom Logo"
           width="300"
           height="100"
         />
@@ -27,6 +34,8 @@ export default function JoinTheParty() {
           </a>
         </div>
       </div>
+      <Image src={DiceMage} alt="Dice Mage" width="300" height="100" />
+      <Image src={DiceKnight} alt="Dice Knight" width="300" height="100" />
     </div>
   );
 }

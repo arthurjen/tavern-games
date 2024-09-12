@@ -4,7 +4,12 @@ export default function Home() {
   return (
     <div className="grid lg:grid-cols-5">
       <div className="bg-main flex items-center justify-center h-full w-full lg:col-span-3">
-        <Image src={Cassettes} alt="splash image" className="p-8 lg:p-24" />
+        <Image
+          src={Cassettes}
+          alt="splash image"
+          priority
+          className="p-8 lg:p-24"
+        />
       </div>
       <div className="flex items-center justify-center w-full border-main border-8 lg:col-span-2">
         <div className="p-8 lg:p-20 text-center">

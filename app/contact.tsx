@@ -7,7 +7,6 @@ export default function Contact() {
         className="pt-8"
         src={DiceKingdomBanner}
         alt="Dice Kingdom Banner"
-        priority
         width="250"
         height="100"
       />
