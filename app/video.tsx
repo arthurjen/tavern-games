@@ -1,6 +1,6 @@
 "use client";
 
-import YouTube, { YouTubeProps } from "react-youtube";
+import YouTube from "react-youtube";
 export default function Video() {
   // const opts: YouTubeProps["opts"] = {
   //   height: "390",
