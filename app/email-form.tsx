@@ -10,7 +10,7 @@ export default function EmailForm() {
   return (
     <form className="flex flex-col items-center justify-center w-full text-xl" onSubmit={handleSubmit}>
       <input
-        className="border-main border-2 w-80 h-10 mb-3 px-3 placeholder:text-main placeholder:text-opacity-50"
+        className="border-secondary border-2 w-80 h-10 mb-3 px-3 placeholder:text-secondary placeholder:text-opacity-50"
         id="email"
         type="email"
         name="email"
@@ -18,7 +18,7 @@ export default function EmailForm() {
       />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <button
-        className="text-white bg-main hover:bg-main-800 w-80 h-10"
+        className="text-white bg-secondary hover:bg-secondary-800 w-80 h-10"
         type="submit"
         disabled={state.submitting}
       >

@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-nuform">{children}</body>
+      <body className="font-nuform text-black bg-beige">{children}</body>
     </html>
   );
 }

@@ -21,8 +21,14 @@ const config: Config = {
           800: "#D88F1B",
         },
         secondary: {
-          DEFAULT: "#D32037",
+          DEFAULT: "#D92B2B",
           800: "#B80E24",
+        },
+        beige: {
+          DEFAULT: "#EAE8DA",
+        },
+        black: {
+          DEFAULT: "#1E1E1E",
         },
       },
     },

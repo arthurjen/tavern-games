@@ -28,7 +28,7 @@ export default function JoinTheParty() {
             href="https://discord.gg/kZSD5cnuKb"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white text-center flex items-center justify-center bg-main w-80 h-10 mt-6 hover:bg-main-800"
+            className="text-white text-center flex items-center justify-center bg-secondary w-80 h-10 mt-6 hover:bg-secondary-800"
           >
             Join Discord
           </a>

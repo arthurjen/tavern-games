@@ -1,7 +1,7 @@
 import Video from "./video";
 export default function WhoAreWe() {
   return (
-    <div className="grid lg:grid-cols-5 border-b-2 border-main py-10">
+    <div className="grid lg:grid-cols-5 bg-main py-10">
       <div className="flex items-center justify-center w-full lg:col-span-3">
         <Video />
       </div>

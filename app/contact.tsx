@@ -2,7 +2,7 @@ import Image from "next/image";
 import DiceKingdomBanner from "../public/dice-kingdom.png";
 export default function Contact() {
   return (
-    <div className="flex flex-col items-center justify-center w-full">
+    <div className="flex flex-col items-center justify-center w-full bg-main ">
       <Image
         className="pt-8"
         src={DiceKingdomBanner}
@@ -10,7 +10,7 @@ export default function Contact() {
         width="250"
         height="100"
       />
-      <div className="flex flex-col items-center justify-center w-full bg-gradient-to-t from-main-100 text-xl pb-16">
+      <div className="flex flex-col items-center justify-center w-full text-xl pb-16">
         <div className="">Dice Kingdom LLC</div>
         <div className="pb-4">Oregon, USA</div>
         <Links href="/" text="Privacy Policy" />

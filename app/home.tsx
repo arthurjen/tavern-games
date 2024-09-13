@@ -15,10 +15,9 @@ export default function Home() {
         <div className="p-8 lg:p-20 text-center">
           <h1 className="flex justify-center text-5xl pb-8">Tavern Games</h1>
           <p className="text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor.
+            We’re proud to present Dice Kingdom’s first product! Five simple D6
+            dice games for gamers and non-gamers alike. Look for it at your
+            local game store or pub 🍻
           </p>
         </div>
       </div>
