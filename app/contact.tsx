@@ -1,32 +1,18 @@
-import Image from "next/image";
-import DiceKingdomBanner from "../public/dice-kingdom.png";
 export default function Contact() {
   return (
-    <div className="flex flex-col items-center justify-center w-full bg-main ">
-      <Image
-        className="pt-8"
-        src={DiceKingdomBanner}
-        alt="Dice Kingdom Banner"
-        width="250"
-        height="100"
-      />
-      <div className="flex flex-col items-center justify-center w-full text-xl pb-16">
-        <div className="">Dice Kingdom LLC</div>
-        <div className="pb-4">Oregon, USA</div>
-        <Links href="/" text="Privacy Policy" />
-        <Links href="https://cherrycitygaming.com/" text="CCG Store" />
-        <Links href="/" text="Contact Us" />
-      </div>
+    <div className="flex flex-col items-center justify-center w-full p-12 text-l bg-main font-rubrik-semibold">
+      <div className="pb-2">Dice Kingdom LLC.</div>
+      <div className="pb-6">Oregon, USA</div>
+      <Links href="/" text="Privacy Policy" />
+      <Links href="https://cherrycitygaming.com/" text="CCG Store" />
+      <Links href="/" text="Contact Us" />
     </div>
   );
 }
 
 function Links(props: { href: string; text: string }) {
   return (
-    <a
-      className="text-secondary hover:text-secondary-800 pb-4"
-      href={props.href}
-    >
+    <a className="pb-2 hover:text-secondary-800" href={props.href}>
       {props.text}
     </a>
   );

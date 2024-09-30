@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import withMT from "@material-tailwind/react/utils/withMT";
 
 const config: Config = {
   content: [
@@ -8,7 +9,9 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      nuform: ["Nuform", "sans-serif"],
+      "rubrik-bold": ["Rubrik New Edge Bold", "sans-serif"],
+      rubrik: ["Rubrik New Edge", "sans-serif"],
+      "rubrik-semibold": ["Rubrik New Edge SemiBold", "sans-serif"],
     },
     extend: {
       colors: {
@@ -17,7 +20,7 @@ const config: Config = {
         main: {
           100: "#F8E0BA",
           300: "#F6CA85",
-          DEFAULT: "#F0A734",
+          DEFAULT: "#FCB421",
           800: "#D88F1B",
         },
         secondary: {
@@ -35,4 +38,4 @@ const config: Config = {
   },
   plugins: [],
 };
-export default config;
+export default withMT(config);

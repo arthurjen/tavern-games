@@ -8,8 +8,16 @@
 }
 
 @font-face {
-  font-family: "Nuform";
-  src: url("./fonts/NuformSans-Regular.otf");
+  font-family: "Rubrik New Edge";
+  src: url("./fonts/RubrikEdgeNew-Regular.otf");
+}
+@font-face {
+  font-family: "Rubrik New Edge Bold";
+  src: url("./fonts/RubrikEdgeNew-Bold.otf");
+}
+@font-face {
+  font-family: "Rubrik New Edge SemiBold";
+  src: url("./fonts/RubrikEdgeNew-SemiBold.otf");
 }
 
 @media (prefers-color-scheme: dark) {

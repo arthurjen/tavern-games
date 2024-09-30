@@ -8,9 +8,12 @@ export default function EmailForm() {
     return <p>Thank you!</p>;
   }
   return (
-    <form className="flex flex-col items-center justify-center w-full text-xl" onSubmit={handleSubmit}>
+    <form
+      className="flex flex-col items-center justify-center w-full text-xl"
+      onSubmit={handleSubmit}
+    >
       <input
-        className="border-secondary border-2 w-80 h-10 mb-3 px-3 placeholder:text-secondary placeholder:text-opacity-50"
+        className="w-full h-12 px-3 mb-5 border-2 border-secondary lg:w-80 bg-beige placeholder:text-secondary placeholder:text-opacity-50 placeholder:font-rubrik-bold"
         id="email"
         type="email"
         name="email"
@@ -18,11 +21,11 @@ export default function EmailForm() {
       />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <button
-        className="text-white bg-secondary hover:bg-secondary-800 w-80 h-10"
+        className="w-full h-12 text-white font-rubrik-bold bg-secondary hover:bg-secondary-800 lg:w-80"
         type="submit"
         disabled={state.submitting}
       >
-        Sign up for our launch
+        Sign up for the launch!
       </button>
     </form>
   );
