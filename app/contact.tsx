@@ -5,7 +5,12 @@ export default function Contact() {
       <div className="pb-6">Oregon, USA</div>
       <Links href="/" text="Privacy Policy" />
       <Links href="https://cherrycitygaming.com/" text="CCG Store" />
-      <Links href="/" text="Contact Us" />
+      <div
+        className="pb-2 hover:text-secondary-800"
+        onClick={() => navigator.clipboard.writeText("asdf")}
+      >
+        Contact Us
+      </div>
     </div>
   );
 }
