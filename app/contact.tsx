@@ -1,3 +1,4 @@
+"use client";
 export default function Contact() {
   return (
     <div className="flex flex-col items-center justify-center w-full p-12 text-l bg-main font-rubrik-semibold">
@@ -7,7 +8,7 @@ export default function Contact() {
       <Links href="https://cherrycitygaming.com/" text="CCG Store" />
       <div
         className="pb-2 hover:text-secondary-800"
-        onClick={() => navigator.clipboard.writeText("asdf")}
+        onClick={() => navigator.clipboard.writeText("info@dicekingdom.io")}
       >
         Contact Us
       </div>
